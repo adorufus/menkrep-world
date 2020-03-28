@@ -83,6 +83,12 @@
     },
     "done": true
   },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2020-03-27 16:50:23 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/pumpkin_seeds": {
     "criteria": {
       "has_pumpkin": "2020-03-22 08:18:02 +0000"
@@ -146,6 +152,12 @@
   "minecraft:recipes/decorations/ladder": {
     "criteria": {
       "has_stick": "2020-03-22 07:23:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/map": {
+    "criteria": {
+      "has_compass": "2020-03-27 16:02:50 +0000"
     },
     "done": true
   },
@@ -215,6 +227,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/redstone_lamp": {
+    "criteria": {
+      "has_glowstone": "2020-03-28 14:47:33 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2020-03-22 08:22:56 +0000"
@@ -236,6 +254,12 @@
   "minecraft:recipes/misc/flower_banner_pattern": {
     "criteria": {
       "has_oxeye_daisy": "2020-03-22 02:55:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_obsidian": "2020-03-27 16:49:19 +0000"
     },
     "done": true
   },
@@ -279,6 +303,12 @@
   "minecraft:recipes/building_blocks/cobblestone_slab": {
     "criteria": {
       "has_cobblestone": "2020-03-22 07:24:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_sandstone_stairs": {
+    "criteria": {
+      "has_chiseled_red_sandstone": "2020-03-28 13:56:29 +0000"
     },
     "done": true
   },
@@ -416,6 +446,7 @@
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
+      "minecraft:fox": "2020-03-27 17:25:01 +0000",
       "minecraft:cow": "2020-03-23 15:27:48 +0000",
       "minecraft:chicken": "2020-03-23 15:31:42 +0000",
       "minecraft:wolf": "2020-03-22 04:14:33 +0000"
@@ -572,6 +603,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2020-03-27 16:49:19 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_andesite_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2020-03-22 07:47:59 +0000"
@@ -655,9 +692,17 @@
       "minecraft:skeleton": "2020-03-22 02:46:52 +0000",
       "minecraft:spider": "2020-03-22 08:05:11 +0000",
       "minecraft:creeper": "2020-03-22 02:46:22 +0000",
-      "minecraft:zombie": "2020-03-22 02:48:03 +0000"
+      "minecraft:silverfish": "2020-03-27 16:33:38 +0000",
+      "minecraft:zombie": "2020-03-22 02:48:03 +0000",
+      "minecraft:drowned": "2020-03-27 17:13:30 +0000"
     },
     "done": false
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2020-03-27 16:50:23 +0000"
+    },
+    "done": true
   },
   "minecraft:recipes/building_blocks/granite_slab": {
     "criteria": {
@@ -686,6 +731,12 @@
   "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
     "criteria": {
       "has_chicken": "2020-03-22 07:43:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_sandstone_slab": {
+    "criteria": {
+      "has_chiseled_red_sandstone": "2020-03-28 13:56:29 +0000"
     },
     "done": true
   },
@@ -1079,6 +1130,12 @@
     },
     "done": true
   },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2020-03-27 16:49:19 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/leather_chestplate": {
     "criteria": {
       "has_leather": "2020-03-22 08:25:47 +0000"
@@ -1142,11 +1199,16 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:forest": "2020-03-22 02:43:00 +0000",
+      "minecraft:mountains": "2020-03-27 16:01:44 +0000",
+      "minecraft:taiga": "2020-03-27 16:03:43 +0000",
+      "minecraft:taiga_hills": "2020-03-27 16:06:46 +0000",
       "minecraft:warm_ocean": "2020-03-22 02:43:36 +0000",
       "minecraft:deep_lukewarm_ocean": "2020-03-22 02:43:35 +0000",
       "minecraft:beach": "2020-03-22 02:43:12 +0000",
+      "minecraft:dark_forest": "2020-03-27 16:23:57 +0000",
       "minecraft:river": "2020-03-22 02:43:09 +0000",
       "minecraft:lukewarm_ocean": "2020-03-22 02:43:18 +0000",
+      "minecraft:birch_forest_hills": "2020-03-27 17:02:14 +0000",
       "minecraft:wooded_hills": "2020-03-22 07:44:19 +0000",
       "minecraft:stone_shore": "2020-03-22 08:00:18 +0000",
       "minecraft:plains": "2020-03-22 02:41:12 +0000"
@@ -1234,6 +1296,12 @@
   "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
       "in_water": "2020-03-22 02:43:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_tulip": {
+    "criteria": {
+      "has_red_flower": "2020-03-27 16:08:54 +0000"
     },
     "done": true
   },
@@ -1330,6 +1398,12 @@
   "minecraft:recipes/building_blocks/stone_stairs": {
     "criteria": {
       "has_stone": "2020-03-22 08:22:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_red_sandstone": {
+    "criteria": {
+      "has_chiseled_red_sandstone": "2020-03-28 13:56:29 +0000"
     },
     "done": true
   },
